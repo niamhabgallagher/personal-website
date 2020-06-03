@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
   {
     path: '',
@@ -13,23 +13,23 @@ const routes: Routes = [
   },
   {
     path: 'about-me',
-    loadChildren: () => import('./about-me/about-me.module').then( m => m.AboutMePageModule)
+    loadChildren: () => import('./pages/about-me/about-me.module').then( m => m.AboutMePageModule)
   },
   {
     path: 'what-i-do',
-    loadChildren: () => import('./what-i-do/what-i-do.module').then( m => m.WhatIDoPageModule)
+    loadChildren: () => import('./pages/what-i-do/what-i-do.module').then( m => m.WhatIDoPageModule)
   },
   {
     path: 'education',
-    loadChildren: () => import('./education/education.module').then( m => m.EducationPageModule)
+    loadChildren: () => import('./pages/education/education.module').then( m => m.EducationPageModule)
   },
   {
     path: 'experience',
-    loadChildren: () => import('./experience/experience.module').then( m => m.ExperiencePageModule)
+    loadChildren: () => import('./pages/experience/experience.module').then( m => m.ExperiencePageModule)
   },
   {
     path: 'contact',
-    loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
+    loadChildren: () => import('./pages/contact/contact.module').then( m => m.ContactPageModule)
   },
 ];
 
