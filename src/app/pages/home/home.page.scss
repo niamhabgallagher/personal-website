@@ -4,11 +4,6 @@ ion-avatar {
   width: 180px;
 }
 
-ion-item {
-  margin: auto;
-  --background: transparent !important;
-}
-
 ion-button {
   --background: #fff;
   --border-radius: 20px;
@@ -18,4 +13,12 @@ ion-button {
 
 .first {
   margin-left: 35px;
+}
+
+ion-item {
+  width: fit-content;
+}
+
+ion-icon {
+  margin: 10px;
 }
