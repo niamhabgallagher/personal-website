@@ -57,3 +57,14 @@
     margin: auto;
     --background: transparent !important;
   }
+
+  .title {
+    ion-avatar {
+        width: 200px;
+        height: 200px;
+    }
+    
+    ion-title {
+        font-size: 50px;
+    }
+  }
