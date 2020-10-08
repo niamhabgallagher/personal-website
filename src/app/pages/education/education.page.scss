@@ -1,0 +1,19 @@
+ion-content {
+    ion-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    h2 {
+        color: var(--ion-color-tertiary);
+    }
+
+    ion-list {
+        background: transparent;
+        margin-top: 0px;
+    }
+
+    .list-md.list-inset ion-item:first-child {
+        --border-width: 0 0 0 0;
+    }
+}
